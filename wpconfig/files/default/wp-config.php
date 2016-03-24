@@ -14,10 +14,10 @@
  * @package WordPress
  */
 
-define('WP_REDIS_HOST', 'wordpress.fgqry8.0001.sae1.cache.amazonaws.com');
+define('WP_REDIS_HOST', 'wordpress.dryp7j.0001.use1.cache.amazonaws.com');
  
-define('WP_HOME','http://my-load-2082634315.sa-east-1.elb.amazonaws.com/');
-define('WP_SITEURL','http://my-load-2082634315.sa-east-1.elb.amazonaws.com/');
+define('WP_HOME','http://load-979518039.us-east-1.elb.amazonaws.com/');
+define('WP_SITEURL','http://load-979518039.us-east-1.elb.amazonaws.com/');
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
@@ -30,7 +30,7 @@ define('DB_USER', 'root');
 define('DB_PASSWORD', 'vvrxkiller25');
 
 /** MySQL hostname */
-define('DB_HOST', 'wordpress.c3gngdvvms6l.sa-east-1.rds.amazonaws.com:3306);
+define('DB_HOST', 'wordpress.cwii7kqdyayr.us-east-1.rds.amazonaws.com:3306');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -47,6 +47,9 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
+ define( 'DBI_AWS_ACCESS_KEY_ID', 'AKIAJFBIKSUDFIQC235Q' );
+define( 'DBI_AWS_SECRET_ACCESS_KEY', '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' );
+
 define('AUTH_KEY',         '85s[XE-6md6z++)aBmU@6>3AuD(X&9yuDp^rIKmhsh0DuE?@Ge#$
 define('SECURE_AUTH_KEY',  'vT.^@ts[Nhw|=LT<`t>uzvP#i||!-~ jW/=z!(/5iIUdp+~lt!$$
 define('LOGGED_IN_KEY',    '5h$Y{*dKX$/R!!zw<z:%:Cz`wg))oP{FgF2pgl(/I}KV`!*[owS$
