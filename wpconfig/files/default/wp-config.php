@@ -36,7 +36,7 @@ define('DB_HOST', 'wordpress.c3gngdvvms6l.sa-east-1.rds.amazonaws.com:3306);
 define('DB_CHARSET', 'utf8');
 
 /** The Database Collate type. Don't change this if in doubt. */
-define('DB_COLLATE', 'wordpress.c3gngdvvms6l.sa-east-1.rds.amazonaws.com:3306');
+define('DB_COLLATE', '');
 
 /**#@+
  * Authentication Unique Keys and Salts.
